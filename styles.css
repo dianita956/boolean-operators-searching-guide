@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    color: #f0f0f0;
+}
+header {
+    background-color: #333;
+    color: #f0f0f0;
+    padding: 10px 0;
+    text-align: center;
+}
+main {
+    padding: 20px;
+    border: 2px solid; 
+}
+footer {
+    background-color: #333;
+    color: #f0f0f0;
+    text-align: center;
+    padding: 10px 0;
+}
+p {
+    margin-bottom: 5px;
+    line-height: 1.5;
+}
+ol ul li {
+    margin: 10px;
+    padding: 5px; 
+    line-height: 1.5;
+}
+a {
+    color: orange;
+}
+
+h3.bool {
+    color: pink;
+}
+.bool{
+    color: green;
+}
+.search {
+    color: red;
+}
+ul {
+    color: white;
+}
+.hide {
+    display: none;
+}
