@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Map Practices Website</title>
+
+</head>
+<body>
+
+    <br/>
+    <center>
+        <h1 id="demo">JS Exercise</h1>
+    </center>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" 
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" 
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="">
+
+    </script>
+
+    <style>
+        html, body {
+            height: auto;
+            margin:0;
+            padding: 0;
+        }
+    </style>
+    <div id="map" style="height: 800px;"></div>
+
+    <script> 
+    var map = L.map('map').setView([29.4489, -98.5206], 9.5);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '© OpenStreetMap contributors'}).addTo(map);
+
+    var marker = L.marker([29.4489, -98.5206]).addTo(map);
+    
+    </script>
+    
+</body>
+</html>
+
